@@ -1,35 +1,37 @@
 body{
 font-family: Arial;
 text-align:center;
-background:#f9f7f1;
 margin:0;
 padding:0;
+
+background-image:url("https://www.transparenttextures.com/patterns/arabesque.png");
+background-color:#f3f6f2;
 }
 
 .container{
 background:white;
 width:70%;
-margin:40px auto;
-padding:30px;
-border-radius:15px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+margin:60px auto;
+padding:35px;
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
 h1{
-color:#5a6d57;
-margin-bottom:30px;
+color:#4b5d4b;
+margin-bottom:25px;
 }
 
 .buttons{
-margin-top:30px;
+margin-top:20px;
 }
 
 .btn{
 display:block;
 width:260px;
-margin:15px auto;
-padding:15px;
-background:#c8d5c0;
+margin:12px auto;
+padding:14px;
+background:#cfdcc9;
 color:#2f3e2f;
 text-decoration:none;
 border-radius:12px;
@@ -38,5 +40,11 @@ transition:0.3s;
 }
 
 .btn:hover{
-background:#b6c8ae;
+background:#b7cbb0;
+}
+
+.student{
+margin-top:35px;
+font-size:18px;
+color:#6b7c68;
 }
